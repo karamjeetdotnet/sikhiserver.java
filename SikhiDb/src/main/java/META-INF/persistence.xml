@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SikhiDb">
+		<class>org.gurbani.SikhiDb.Entities.BaniIndex</class>
+		<class>org.gurbani.SikhiDb.Entities.BaniIndexRange</class>
+		<class>org.gurbani.SikhiDb.Entities.BaniText</class>
+		<class>org.gurbani.SikhiDb.Entities.BaniTextLine</class>
+		<class>org.gurbani.SikhiDb.Entities.DbSystemInfo</class>
+		<class>org.gurbani.SikhiDb.Entities.FileSource</class>
+		<class>org.gurbani.SikhiDb.Entities.Language</class>
+		<class>org.gurbani.SikhiDb.Entities.Locale</class>
+		<class>org.gurbani.SikhiDb.Entities.SourceIndex</class>
+		<class>org.gurbani.SikhiDb.Entities.SourceIndexRange</class>
+		<class>org.gurbani.SikhiDb.Entities.TranslationSource</class>
+		<class>org.gurbani.SikhiDb.Entities.Writer</class>
+	</persistence-unit>
+</persistence>
